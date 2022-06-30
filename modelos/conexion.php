@@ -6,7 +6,7 @@ class Conexion{
 
 		$link = new PDO("mysql:host=161.35.59.34;dbname=pos",
 			            "root",
-			            "");
+			            "root");
 
 		$link->exec("set names utf8");
 
