@@ -4,9 +4,9 @@ class Conexion{
 
 	static public function conectar(){
 
-		$link = new PDO("mysql:host=node118801-shopus.nl.weppa.cloud;dbname=pos",
+		$link = new PDO("mysql:host=localhost;dbname=pos",
 			            "root",
-			            "ZYQond18024");
+			            "12345678");
 
 		$link->exec("set names utf8");
 
